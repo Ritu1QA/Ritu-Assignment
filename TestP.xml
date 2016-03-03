@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="5" parallel="none" name="Suite">
+<!-- Suite -->
+<test name="Test">
+<parameter name="url" value="https://pi.pardot.com"/>
+<parameter name="username" value="pardot.applicant@pardot.com"/>
+<parameter name="password" value="Applicant2012"/>
+<parameter name="listName" value="RituList"/>
+<classes>
+<class name="testNGframework.Pardot"/>
+</classes>
+</test>
+<!-- Test -->
+</suite>
